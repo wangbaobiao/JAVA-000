@@ -1,6 +1,6 @@
 - 串行GC
 	-XX:+UseSerialGC	
-	STW时间较长，不适合在服务器使用
+	STW时间较长，不适合在服务器使用。。。
 - 并行GC
 	-XX:+UseParallelGC	
 	多线程运作，相较于串行GC，总的暂停时间变短
